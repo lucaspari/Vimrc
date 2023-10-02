@@ -8,6 +8,7 @@ nnoremap <leader>sp :split<CR>
 nnoremap <leader>bb :bprev<CR>
 nnoremap <leader>bn :bnext<CR>
 nmap <leader>f <action>(GotoAction)
+nmap <leader>lf <action>(ReformatCode)
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
