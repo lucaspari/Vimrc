@@ -7,8 +7,11 @@ nnoremap <leader>vs :vsplit<CR>
 nnoremap <leader>sp :split<CR>
 nnoremap <leader>bb :bprev<CR>
 nnoremap <leader>bn :bnext<CR>
+nnoremap <leader>gd :action GotoDeclaration<CR>
+nnoremap <leader>lr :action RenameElement<CR>
 nmap <leader>f <action>(GotoAction)
 nmap <leader>lf <action>(ReformatCode)
+nmap <leader>lg <action>(Generate)
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
