@@ -1,0 +1,23 @@
+set relativenumber
+let mapleader = " "
+nnoremap <leader>w :w<CR>
+nnoremap <leader>c :bdelete<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>vs :vsplit<CR>
+nnoremap <leader>sp :split<CR>
+nnoremap <leader>bb :bprev<CR>
+nnoremap <leader>bn :bnext<CR>
+nmap <leader>f <action>(GotoAction)
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+// NERDTree
+set NERDTree
+nnoremap <leader>e :NERDTreeToggle<CR>
+let g:NERDTreeMapActivateNode = 'l'
+let g:NERDTreeMapCloseDir = 'h'
+
