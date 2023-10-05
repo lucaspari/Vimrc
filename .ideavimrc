@@ -11,7 +11,9 @@ nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>lr :action RenameElement<CR>
 nmap <leader>f <action>(GotoAction)
 nmap <leader>lf <action>(ReformatCode)
+nnoremap <leader>la :action SearchEverywhere<CR>
 nmap <leader>lg <action>(Generate)
+nmap <leader>ts <action>(TextSearchAction)
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
@@ -19,7 +21,6 @@ noremap <leader>4 4gt
 noremap <leader>5 5gt
 noremap <leader>6 6gt
 noremap <leader>7 7gt
-// NERDTree
 set NERDTree
 nnoremap <leader>e :NERDTreeToggle<CR>
 let g:NERDTreeMapActivateNode = 'l'
