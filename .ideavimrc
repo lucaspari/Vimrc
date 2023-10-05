@@ -14,6 +14,7 @@ nmap <leader>lf <action>(ReformatCode)
 nnoremap <leader>la :action SearchEverywhere<CR>
 nmap <leader>lg <action>(Generate)
 nmap <leader>ts <action>(TextSearchAction)
+nmap <leader>se <action>(ShowErrorDescription)
 noremap <leader>1 1gt
 noremap <leader>2 2gt
 noremap <leader>3 3gt
@@ -25,4 +26,3 @@ set NERDTree
 nnoremap <leader>e :NERDTreeToggle<CR>
 let g:NERDTreeMapActivateNode = 'l'
 let g:NERDTreeMapCloseDir = 'h'
-
