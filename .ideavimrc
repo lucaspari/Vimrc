@@ -37,3 +37,4 @@ let g:NERDTreeMapCloseDir = 'h'
 let g:NERDTreeMapMenu = 'm'
 set commentary
 vnoremap <C-/  :CommentByLineComment<CR>
+vnoremap <C-c> "+y
