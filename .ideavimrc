@@ -10,12 +10,13 @@ nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>lr :action RenameElement<CR>
 nmap <leader>lf <action>(ReformatCode)
-vmap <leader>lf <action>(ReformatCode)
-nmap <leader>lg <action>(Generate)
-nmap <leader>d <action>(ShowErrorDescription)
-nnoremap <leader>fe :action SearchEverywhere<CR>
+nmap <leader>fl <action>(Replace)
+"fuzzy finder"
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
+nnoremap <leader>fe :action SearchEverywhere<CR>
+nmap <leader>lg <action>(Generate)
+nmap <leader>se <action>(ShowErrorDescription)
 " Map Alt+K to move the current line up
 nnoremap <A-K> :m-2<CR>==
 vnoremap <A-K> :m-2<CR>==gv
@@ -34,7 +35,3 @@ set NERDTree
 nnoremap <leader>e :NERDTreeToggle<CR>
 let g:NERDTreeMapActivateNode = 'l'
 let g:NERDTreeMapCloseDir = 'h'
-let g:NERDTreeMapMenu = 'm'
-set commentary
-vnoremap <C-/  :CommentByLineComment<CR>
-vnoremap <C-c> "+y
