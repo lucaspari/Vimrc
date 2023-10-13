@@ -14,9 +14,10 @@ nmap <leader>fl <action>(Replace)
 "fuzzy finder"
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
-nnoremap <leader>fe :action SearchEverywhere<CR>
+nnoremap <leader>fa :action SearchEverywhere<CR>
 nmap <leader>lg <action>(Generate)
 nmap <leader>se <action>(ShowErrorDescription)
+vnoremap <C-c> "+y
 " Map Alt+K to move the current line up
 nnoremap <A-K> :m-2<CR>==
 vnoremap <A-K> :m-2<CR>==gv
