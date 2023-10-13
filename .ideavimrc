@@ -9,8 +9,9 @@ nnoremap <leader>bb :bprev<CR>
 nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>lr :action RenameElement<CR>
-nmap <leader>lf <action>(ReformatCode)
+vmap <leader>fc :action ReformatCode<CR>
 nmap <leader>fl <action>(Replace)
+
 "fuzzy finder"
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
