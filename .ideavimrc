@@ -1,3 +1,4 @@
+set number
 set relativenumber
 let mapleader = " "
 nnoremap <leader>w :w<CR>
@@ -10,14 +11,12 @@ nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>lr :action RenameElement<CR>
 vmap <leader>fc :action ReformatCode<CR>
-vmap <leader>fr <action>(Replace)
-
-"fuzzy finder"
+nmap <leader>fr <action>(Replace)
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
-nnoremap <leader>fa :action SearchEverywhere<CR>
-nmap <leader>lg <action>(Generate)
 nmap <leader>se <action>(ShowErrorDescription)
+nnoremap <leader>fa :action SearchEverywhere<CR>
+nmap <leader>gc <action>(Generate)
 vnoremap <C-c> "+y
 " Map Alt+K to move the current line up
 nnoremap <A-K> :m-2<CR>==
