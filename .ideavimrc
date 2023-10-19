@@ -13,6 +13,7 @@ nmap <leader>fr <action>(Replace)
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
 nmap <leader>se <action>(ShowErrorDescription)
+nmap <leader>sn <action>(GotoNextError)
 nmap <leader>oi <action>(OptimizeImports)
 nnoremap <leader>fa :action SearchEverywhere<CR>
 nmap <leader>gc <action>(Generate)
