@@ -15,6 +15,8 @@ nmap <leader>ff <action>(GotoFile)
 nmap <leader>se <action>(ShowErrorDescription)
 nmap <leader>sn <action>(GotoNextError)
 nmap <leader>oi <action>(OptimizeImports)
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
 nnoremap <leader>fa :action SearchEverywhere<CR>
 nmap <leader>gc <action>(Generate)
 vnoremap <C-c> "+y
@@ -29,3 +31,4 @@ set NERDTree
 nnoremap <leader>e :NERDTreeToggle<CR>
 let g:NERDTreeMapActivateNode = 'l'
 let g:NERDTreeMapCloseDir = 'h'
+
