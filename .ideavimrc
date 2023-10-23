@@ -4,8 +4,7 @@ let mapleader = " "
 nnoremap <leader>w :w<CR>
 nnoremap <leader>c :bdelete<CR>
 nnoremap <leader>q :q<CR>
-nnoremap <leader>vs :vsplit<CR>
-nnoremap <leader>sp :split<CR>
+nnoremap <leader>sp :vsplit<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>re :action RenameElement<CR>
 vmap <leader>fc :action ReformatCode<CR>
@@ -32,4 +31,3 @@ set NERDTree
 nnoremap <leader>e :NERDTreeToggle<CR>
 let g:NERDTreeMapActivateNode = 'l'
 let g:NERDTreeMapCloseDir = 'h'
-
