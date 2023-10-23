@@ -7,13 +7,14 @@ nnoremap <leader>q :q<CR>
 nnoremap <leader>vs :vsplit<CR>
 nnoremap <leader>sp :split<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
-nnoremap <leader>lr :action RenameElement<CR>
+nnoremap <leader>re :action RenameElement<CR>
 vmap <leader>fc :action ReformatCode<CR>
 nmap <leader>fr <action>(Replace)
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
 nmap <leader>se <action>(ShowErrorDescription)
-nmap <leader>sn <action>(GotoNextError)
+nmap [ <action>(GotoNextError)
+nmap ] <action>(GotoPreviousError)
 nmap <leader>oi <action>(OptimizeImports)
 nnoremap <C-l> <C-w>l
 nnoremap <C-h> <C-w>h
