@@ -8,7 +8,7 @@ nnoremap <leader>sp :vsplit<CR>
 nnoremap <leader>gd :action GotoDeclaration<CR>
 nnoremap <leader>re :action RenameElement<CR>
 vmap <leader>fc :action ReformatCode<CR>
-nmap <leader>fr <action>(Replace)
+nmap <leader>rr <action>(Replace)
 nmap <leader>ft <action>(TextSearchAction)
 nmap <leader>ff <action>(GotoFile)
 nmap <leader>se <action>(ShowErrorDescription)
