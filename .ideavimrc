@@ -1,13 +1,4 @@
-set number
-set relativenumber
-let mapleader = " "
-nnoremap <leader>w :w<CR>
-nnoremap <leader>c :bdelete<CR>
-nnoremap <leader>q :q<CR>
-nnoremap <leader>sp :vsplit<CR>
-nnoremap <leader>gd :action GotoDeclaration<CR>
-nnoremap <leader>re :action RenameElement<CR>
-
+set incsearch
 set number
 set relativenumber
 let mapleader = " "
@@ -44,30 +35,4 @@ nnoremap K :bnext<CR>
 set NERDTree
 nnoremap <leader>e :NERDTreeTogle<CR>
 let g:NERDTreeMapActivateNode = 'l'
-let g:NERDTreeMapCloseDir = 'h'vmap <leader>fc :action ReformatCode<CR>
-nmap <leader>rr <action>(Replace)
-nmap <leader>ft <action>(TextSearchAction)
-nmap <leader>ff <action>(GotoFile)
-nmap <leader>se <action>(ShowErrorDescription)
-nmap [ <action>(GotoNextError)
-nmap ] <action>(GotoPreviousError)
-nmap <leader>oi <action>(OptimizeImports)
-nnoremap <C-l> <C-w>l
-nnoremap <C-h> <C-w>h
-nnoremap <leader>fa :action SearchEverywhere<CR>
-nmap <leader>gc <action>(Generate)
-vnoremap <C-c> "+y
-" Map Alt+K to move the current line up
-nnoremap <A-K> :m-2<CR>==
-vnoremap <A-K> :m-2<CR>==gv
-" Map Alt+J to move the current line down
-nnoremap <A-J> :m+<CR>==
-vnoremap <A-J> :m+<CR>==gv
-nnoremap J :bprev<CR>
-nnoremap K :bnext<CR>
-" Nerd Tree Settings
-set NERDTree
-nnoremap <leader>e :NERDTreeTogle<CR>
-let g:NERDTreeMapActivateNode = 'l'
 let g:NERDTreeMapCloseDir = 'h'
-
